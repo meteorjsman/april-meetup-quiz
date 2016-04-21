@@ -14,7 +14,8 @@ Warning work in progress code:
 - This app will need more love to clean it up and make it work.
 - Subscripts at the moment are not managed properly
 - There is no security/account management
-
+- There are bugs in the code
+- There are no tests in the code base.
 
 Reading list:
 * [FlowRouter](https://github.com/kadirahq/flow-router)
