@@ -1,0 +1,14 @@
+<template name="polllist">
+  <ul>
+    {{ #each polls }}
+    <li>
+        <h3>{{ question }}</h3>
+        <ul>
+          <li><a href="/quiz/{{ _id }}/presenter">Presenter</a></li>
+          <li><a href="/quiz/{{ _id }}/audience">Audience</a></li>
+        </ul>
+    </li>
+    {{ /each }}
+</ul>
+
+</template>
